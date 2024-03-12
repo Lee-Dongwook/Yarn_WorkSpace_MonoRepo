@@ -1,11 +1,10 @@
 {
   "name": "monorepo",
   "private": true,
-  "workspaces": {
-    "packages": [
-      "package/*"
-    ]
-  },
+  "workspaces": [
+    "app/*",
+    "package/*"
+  ],
   "scripts": {
     "react-vite": "yarn workspace react-vite dev",
     "next": "yarn workspace next dev"
