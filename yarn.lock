@@ -576,6 +576,12 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@monorepo/common@npm:*, @monorepo/common@workspace:package/common":
+  version: 0.0.0-use.local
+  resolution: "@monorepo/common@workspace:package/common"
+  languageName: unknown
+  linkType: soft
+
 "@next/env@npm:14.1.3":
   version: 14.1.3
   resolution: "@next/env@npm:14.1.3"
@@ -4194,6 +4200,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "react-vite@workspace:package/react-vite"
   dependencies:
+    "@monorepo/common": "npm:*"
     "@types/react": "npm:^18.2.64"
     "@types/react-dom": "npm:^18.2.21"
     "@typescript-eslint/eslint-plugin": "npm:^7.1.1"
