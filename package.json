@@ -1,0 +1,10 @@
+{
+  "name": "monorepo",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "package/*"
+    ]
+  },
+  "packageManager": "yarn@4.1.1"
+}
