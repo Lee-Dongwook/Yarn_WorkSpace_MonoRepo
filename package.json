@@ -6,6 +6,10 @@
       "package/*"
     ]
   },
+  "scripts": {
+    "react-vite": "yarn workspace react-vite dev",
+    "next": "yarn workspace next dev"
+  },
   "packageManager": "yarn@4.1.1",
   "devDependencies": {
     "eslint": "^8.57.0",
